@@ -1,0 +1,64 @@
+---
+---
+
+@import 'minima';
+
+pre,
+code {
+  background-color: #f9fbfd;
+}
+
+code {
+  padding: 0.15rem 0.6rem;
+  font-size: 1rem;
+}
+
+pre {
+  padding: 1rem;
+}
+
+p {
+  font-size: 1.15rem;
+}
+
+a {
+  color: #16b7ff;
+
+  &:visited {
+    color: #bdbdbd;
+  }
+
+  &:hover {
+    text-decoration: none;
+  }
+}
+
+.post-list-heading,
+.rss-subscribe {
+  display: none;
+}
+
+.site-header {
+  border-top: none;
+  border-bottom: none;
+  margin-top: 4rem;
+}
+
+.site-title {
+  font-size: 3rem;
+}
+
+.post-title {
+  font-weight: 700;
+  font-size: 4rem;
+}
+
+.post-link {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #000000;
+}
+
+.highlighter-rouge {
+  color: #e60345;
+}
